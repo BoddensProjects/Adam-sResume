@@ -1,0 +1,368 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-parent{
+    
+    width: 100%;
+    justify-content: space-between;
+    display:flex;
+    background-color: rgb(18, 15, 49);
+    height:100vh;
+    padding: 15px;
+  
+}
+.left-nav{
+    overflow: hidden;
+   
+    border: 2px solid #0000ff;
+    box-shadow: 0 0 10px #00d0ff, 0 0 10px #00d0ff, 0 0 10px #00d0ff, 0 0 10px #00d0ff;
+    border-radius: 20px;
+    margin-right: 50px;
+flex:1;
+background-color: rgb(12, 13, 44);
+}
+.heather1{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    padding:5px;
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    margin:10px;
+   background-color:  rgb(33, 34, 99);
+}
+.hazedp{
+    color: white;
+    font-weight: 700;
+    font-size:15px;
+}
+.logo{
+    box-shadow: 0 0 5px #00d0ff, 0 0 5px #00d0ff, 0 0 5px #00d0ff, 0 0 5px #00d0ff;
+    border: 2px solid #0000ff;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url('https://tr.rbxcdn.com/b26e419134c49a0f6c2bbfc24aaf9c8a/420/420/Hat/Webp');
+    height: 50px;
+    width: 50px;
+    border-radius:25px;
+    background-position: center; background-size: cover;
+}
+
+
+
+
+
+.right-section{
+    overflow: scroll;
+    border: 2px solid #0000ff;
+    box-shadow: 0 0 10px #00d0ff, 0 0 10px #00d0ff, 0 0 10px #00d0ff, 0 0 10px #00d0ff;
+    border-radius: 20px;
+    background-color: rgb(18, 16, 61);
+    flex:4;
+}
+
+ul{ 
+    list-style-type: none;
+    margin-left: 9px;
+    margin-Right: 9px;
+    text-align: center;
+    margin-top: 5px;
+    background-color:  rgb(33, 34, 99);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: rgb(165, 150, 230);
+}
+ul li{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    transition: 0.5s ease-in;
+} ul li:hover{
+    font-size: 15px;
+    color: #51639e;
+}
+a{
+    color: rgb(165, 150, 230);
+    text-decoration: none;
+    transition: 0.5 ease-in-out;
+}a:hover{
+    text-shadow: #00d0ff;
+    font-size: 15px;
+    color: #51639e;
+}a:active{
+    color: #05ff00;
+}
+
+.home-section {
+    background-color: #2f276f;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.home-section h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 1.2em;
+    color: #dddddd;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.icons {
+    font-size: 2em;
+}
+
+.icons i {
+    margin: 0 15px;
+    color: #007bff;
+}
+
+.icons i:hover {
+    color: #0056b3;
+}
+.skills-section {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.skills-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section li {
+    font-size: 20px;
+    color: #666;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.skills-section li i {
+    margin-right: 20px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.skills-section li div {
+    text-align: left;
+}
+
+.skills-section li strong {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.skills-section li p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #666;
+}
+.skills-section ul li{
+    padding-left: 10px;
+
+}
+.img-slider{
+    border-radius: 30px;
+    height: 60vh;
+    background-color: #2f276f;
+    width:90%;
+    overflow-x: scroll;
+    margin:0 auto;
+    margin-top: 120px;
+    border: 5px solid rgb(0, 225, 255);
+    
+}
+.slider-img1{
+   
+    padding:5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display:inline-block;
+    height: 500px;
+    width:300px;
+    background-color: #0056b3;
+}
+.new-img1{
+    
+    width:90%;
+    margin:0 auto;
+    height:300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#imgurl1{
+   
+    background-image: url('https://play-lh.googleusercontent.com/YZIS5PMCmKTQdMvuIpM-gXT0uNoVxZc-kEoRthOhosMNPt3-JoXC_GVyQfBY9zIyW_tS');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+#imgurl2{
+    background-image: url('https://cdn.dribbble.com/users/1889528/screenshots/7239609/media/9618c7e174ae3ddf8aed3322cb86008e.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#imgurl3{
+    background-image: url('https://media.istockphoto.com/id/1153033854/vector/a-game-to-hit-the-mole.jpg?s=612x612&w=0&k=20&c=Zugmk3xO6JASmNN4sNwpaekrstBXjUA2fdIAJRi3v5Y=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#imgurl4{
+    background-image: url('https://media.istockphoto.com/id/1330537063/photo/mobile-phone-award.jpg?s=612x612&w=0&k=20&c=z4ybh-uwvLNMjBwIEMdUXKuNFW2OXUYjxyNz8AAtQdc=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#imgurl5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Uru5KK-CuM_7j45WYKa3j0eKE6Z5Qf23LA&s');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn-styles{
+  
+    width: 60%;
+    height:50px;
+    margin: 0 auto;
+    border-radius: 40px;
+    color: white;
+    background-color: #00d0ff;
+    border: 2px solid #4766ff;
+}
+
+
+
+
+
+#hobbies {
+    margin-bottom: 100px;
+    overflow: scroll;
+    scrollbar-width: 2px;
+    margin:50px;
+    padding: 20px;
+    background-color: #ffffffb2;
+    border-radius: 8px;
+    border: 3px solid rgba(255, 255, 255, 0.662);
+}
+
+#hobbies h2 {
+    text-align: center;
+    
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hobby-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.hobby-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.hobby-item p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.hobby-item p strong {
+    color: #000;
+}
+
+#hobbies .hobby-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+.favorite-food {
+    text-align: center;
+    margin: 20px;
+}
+.favorite-food h2{
+    color: white;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    width: 250px; 
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.food-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
